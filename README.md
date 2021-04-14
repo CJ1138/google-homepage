@@ -1,0 +1,1 @@
+This is my first The Odin Project project. The excercise is to get comfortable with HTML, CSS & Git by making a visual copy of the Google homepage.
