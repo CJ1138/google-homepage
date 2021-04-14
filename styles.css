@@ -1,23 +1,35 @@
+#grid-container{
+}
+
 .google-logo{
     width: 272px;
 }
 .navi{
+    display: inline-block;
+    padding: 5px;
+    margin: 0px 5px;
     font-family: arial;
     font-size: 14px;
 }
 #top-navi{
-    color: rgba(0,0,0,0.87)
+    display: flex;
     height: 60px;
     padding: 6px;
+    color: rgba(0,0,0,0.87);
+    justify-content: space-between;
 }
 #bottom-navi{
     color: rgba(0,0,0,0.54)
 }
 #top-left-navi{
-    float: left;
 }
 #top-right-navi{
-    float:right;
+}
+#search-box{
+
+}
+#search-buttons{
+ 
 }
 a {
     color: rgba(0,0,0,0.87);
@@ -27,6 +39,5 @@ a:hover{
     text-decoration: underline;
 }
 #google-logo{
-    display: flex;
-    align-items: center;
+  
 }
