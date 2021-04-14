@@ -1,0 +1,32 @@
+.google-logo{
+    width: 272px;
+}
+.navi{
+    font-family: arial;
+    font-size: 14px;
+}
+#top-navi{
+    color: rgba(0,0,0,0.87)
+    height: 60px;
+    padding: 6px;
+}
+#bottom-navi{
+    color: rgba(0,0,0,0.54)
+}
+#top-left-navi{
+    float: left;
+}
+#top-right-navi{
+    float:right;
+}
+a {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#google-logo{
+    display: flex;
+    align-items: center;
+}
