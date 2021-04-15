@@ -66,6 +66,8 @@ table {
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    width:484px;
+    margin: 0 auto;
 }
 .top-left-navi{
     display:inline-block;
@@ -80,9 +82,14 @@ table {
     padding: 5px;
     margin: 0px 5px;
 }   
-}
 #search-box{
-
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 584px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
 }
 #search-buttons{
     padding-top: 18px;
@@ -157,4 +164,12 @@ a.top-right-navi{
     border-radius: 50%;
     height: 32px;
     width: 32px;
+}
+.search-box-icons{
+    padding: 10px;
+    color: #9aa0a6;
+}
+.input{
+    border:hidden;
+    width:100%;
 }
