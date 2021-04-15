@@ -153,10 +153,6 @@ a.bottom-navi{
     margin-right: 6px;
     height: 14px;
 }
-a.top-right-navi{
-    padding-right: 15px;
-    align-items: center;
-}
 .material-icons{
     margin-top: 0px;
 }
@@ -172,4 +168,10 @@ a.top-right-navi{
 .input{
     border:hidden;
     width:100%;
+}
+.accs{
+    padding: 0px;
+}
+.apps{
+    padding: 0px;
 }
