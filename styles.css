@@ -65,6 +65,7 @@ table {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 .top-left-navi{
     display:inline-block;
@@ -84,7 +85,7 @@ table {
 
 }
 #search-buttons{
- 
+    padding-top: 18px;
 }
 a {
     text-decoration: none;
@@ -95,15 +96,14 @@ a:hover{
 }
 #google-logo-container{
     height: 250px;
-    position: relative;
+    display: flex;
+    justify-content: center;
+
 }
 .google-logo{
     width: 272px;
-    bottom: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align: bottom;
+    height:92px;
+    align-self: flex-end;
 }
 .button{
     border: 1px solid #f8f9fa;
