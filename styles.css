@@ -120,10 +120,18 @@ a:hover{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 20px;
 }
 #location-bar{
     padding: 15px 30px;
+    font-size: 15px;
     border-bottom: 1px solid #dadce0;
+}
+a.bottom-navi{
+    padding:15px;
+}
+.leaf{
+    margin-right: 6px;
+    height: 14px;
 }
