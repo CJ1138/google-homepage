@@ -77,7 +77,11 @@ table {
 .top-left-navi:first-of-type{
     margin-left: 15px;
 }
-#top-right-navi{
+.top-right-navi{
+    display:inline-block;
+    padding: 5px;
+    margin: 0px 5px;
+}   
 }
 #search-box{
 
@@ -137,8 +141,17 @@ a.bottom-navi{
 }
 a.top-right-navi{
     padding-right: 15px;
+    align-items: center;
 }
 .gb_Xe {
     line-height:normal;
     height: 20px;
+}
+material-icons{
+    padding: 8px;
+}
+.account-pic{
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
 }
